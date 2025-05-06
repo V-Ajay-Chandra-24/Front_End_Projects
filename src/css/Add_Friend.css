@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html, body{
@@ -17,8 +17,55 @@ body{
     background-color: cornflowerblue;
 }
 
-#card{
-    height: 400px;
-    width: 400px;
+.card{
+    height: 380px;
+    width: 300px;
+    border-radius: 8px;
     background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img{
+    height: 50%;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h1{
+    font-size: 25px;
+    margin: 5px 0px;
+    font-weight: 800;
+}
+
+.card h5{
+    font-size: 15px;
+    margin: 5px 0px;
+    color:blueviolet;
+}
+
+.card .btn-container .add{
+    margin: 50px 2px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(52, 199, 52);
+    cursor: pointer;
+}
+
+.card .btn-container .rmv{
+    margin: 50px 2px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #111;
+    background-color: #dadada;
+    cursor: pointer;
 }
