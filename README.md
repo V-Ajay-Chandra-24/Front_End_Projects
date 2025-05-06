@@ -1,1 +1,1 @@
-Repo for my Awesome Front-End Projects
+Practicing HTML,CSS and JS
